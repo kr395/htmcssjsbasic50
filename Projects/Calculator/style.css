@@ -1,11 +1,11 @@
 * {
     
-    background-color: rgb(70, 230, 255);
+    background-color: rgb(134, 134, 134);
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
  .container {
-    background-color: rgb(109, 99, 107);
+    background-color: rgb(0, 0, 0);
     width: 200pt ;
     height: 300pt;
     margin: auto;
@@ -15,9 +15,10 @@
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
     box-sizing: content-box;
     padding: 1pt;
+    cursor: pointer;
     
-  
  }
+
 
  h1 {
     color: rgb(255, 255, 255);
@@ -25,12 +26,14 @@
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
  }
  th {
-    border: 1pt solid #33beff;
+    border: 2pt solid #ffffff;
     width: 20%;
     height: 20%;
     font-size: 30px;
     text-align: right;
-    padding-right: 22pt;
+    padding-right: 18pt;
+    border-radius: 6pt;
+    cursor: e-resize;
     
 
  }
@@ -42,10 +45,11 @@
     border: 1.2pt solid #ffffff;
     border-radius: 5pt ;
     font-size: 25px;
+    cursor: pointer;
  }
  td {
     border-radius: 5pt ;
-    background-color: blue;
+ 
    
     
  }
