@@ -1,4 +1,2 @@
-function number() {
-    
 
-}
+console.log("Hello world")

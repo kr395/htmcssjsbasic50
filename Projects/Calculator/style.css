@@ -1,61 +1,37 @@
 * {
-    
-    background-color: rgb(134, 134, 134);
+    background-color: azure;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
- .container {
-    background-color: rgb(0, 0, 0);
-    width: 200pt ;
-    height: 300pt;
-    margin: auto;
-    row-gap: 4;
-    border: 3pt solid rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
-    box-sizing: content-box;
-    padding: 1pt;
-    cursor: pointer;
-    
- }
-
-
- h1 {
-    color: rgb(255, 255, 255);
+h1 {
     text-align: center;
-    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
- }
- th {
-    border: 2pt solid #ffffff;
-    width: 20%;
-    height: 20%;
-    font-size: 30px;
-    text-align: right;
-    padding-right: 18pt;
-    border-radius: 6pt;
-    cursor: e-resize;
-    
-
- }
- .btn ,.btns {
+}
+.container {
     width: 100%;
-    height: 100%;
-    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    border: 1.2pt solid #ffffff;
-    border-radius: 5pt ;
-    font-size: 25px;
-    cursor: pointer;
- }
- td {
-    border-radius: 5pt ;
- 
-   
-    
- }
- .btns {
-    background-color: rgb(255, 0, 212);
+}
+.calculator {
+    padding: 8pt;
+    border-radius: 5pt;
+    background: rgb(31, 35, 31);
+}
 
- }
+input {
+    width: 189pt;
+    height: 49pt;
+    margin-bottom: 2pt;
+}
 
- 
+.btn {
+    width: 44pt;
+    height: 47pt;
+    margin: 1pt;
+    border: none;
+    margin: 2pt;
+    background: transparent;
+
+}
