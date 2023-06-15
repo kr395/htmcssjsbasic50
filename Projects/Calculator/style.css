@@ -13,25 +13,48 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #e3f9ff;
 }
 .calculator {
     padding: 8pt;
-    border-radius: 5pt;
+    border-radius: 15pt;
     background: rgb(31, 35, 31);
+    box-shadow: 0 5px 95px 66px rgba(255, 112, 243, 0.6);
 }
 
 input {
-    width: 189pt;
-    height: 49pt;
+    width: 210pt;
+    height: 66pt;
     margin-bottom: 2pt;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    color: #f4fbff;;
+    font-size: 1.5em;
+    border-radius: 25pt;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    text-align: right;
+    padding-right: 15pt;
+    
+   
 }
 
 .btn {
-    width: 44pt;
-    height: 47pt;
-    margin: 1pt;
-    border: none;
-    margin: 2pt;
-    background: transparent;
+    width: 40pt;
+    height: 40pt;
+    margin: 5pt;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    color: #f4fbff;
+    font-size: 1.5em;
+    border-radius: 50%;
+    box-shadow: 0 6px 6px rgba(79, 158, 255, 0.6);
 
+}
+.btns {
+    background: transparent;
 }
